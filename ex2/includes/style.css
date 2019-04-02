@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* between two objects margin. and a space between obj inside obj is padding */
+
+html{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    background: #F2F2F2; 
+}
+
+header, main, footer, nav, aside, section, div{
+    display:block;
+}
+
+a {
+    text-decoration:none;  
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0px auto;
+}
+
+header {
+    width: 100%;
+    margin-top:76px;
+    margin-right: 25px;
+}
+
+#logo {   
+/*possible in one line background: urd("../images/logo.jpg") no-repeat */
+    background-image: url("../images/logo.jpg"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 900px;
+    height: 100px;
+    display: inline-block;
+}
+
+.logoName {
+    vertical-align: middle;
+    font-family: cursive;
+    font-size: 60px;
+    padding-left: 180px;  
+}
+
+.myWorks{
+    padding-bottom: 40px;
+    padding-top: 26px;
+}
+
+.myWorks a{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+    opacity:0.3;
+    letter-spacing: 4px;
+    padding-right:24px;
+    text-transform: uppercase;
+    }
+
+.myWorks a:hover{
+    color: #1434E1;
+    opacity: 100 ;
+}
+
+.mainPics img{
+    padding-right:15px;
+}
+
+.skills {   
+    font-weight: normal;
+    display: inline-block;
+}
+
+.skills .h2first{
+    padding-top: 40px;
+    padding-bottom: 8px;
+    font-size: 40px;
+}
+
+.skills .h2second {
+    padding-bottom: 27px;
+    font-size: 40px;
+}
+
+.skills p{
+    padding-bottom: 60px;
+    font-size:18px;
+}
+
+.skills ul {
+    list-style: none;
+    display: list-item;
+    line-height: 80px;
+    font-size:20pt;
+    padding-bottom: 89px;
+}
+
+.skills ul li{
+    padding-top: 67px;
+}
+.skills ul li img{
+    vertical-align: middle;
+    padding-right: 40px;
+    margin: center;
+    text-align: left;
+}
+
+article {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding-bottom: 193px;
+}
+
+.picBehind {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 570px;
+    height: 417px;
+}
+
+.picFront {
+        position: absolute;
+        top: 99px;
+        left: 315px;
+        width: 350px;
+        height: 453px;
+}
+    
+
+
+footer {
+    background-color: #515151;
+    padding-bottom: 42.5px;
+    padding-top:69.5px;
+}
+
+.extraInfo a{
+    color: #ffffff;
+    padding-right: 60px;
+} 
+
+.extraInfo a:hover {
+    color: #ffffff;
+    background-color: #c6b393;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    }
+
+hr{
+  margin-left: auto;
+  margin-right: auto;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+  width: 1108px;
+  height: 1px;
+  border: 1px solid#FFFFFF;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.socialMedia a{
+    padding-right:18px;
+}
+
+
